@@ -1,0 +1,38 @@
+.video {
+  height: 100%;
+}
+
+.buttonText {
+  position: absolute;
+  z-index: 9;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 18px;
+  color: white;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  border-radius: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+
+  cursor: pointer;
+  background-color: grey;
+  overflow: hidden;
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.video {
+  position: absolute;
+  height: 600px;
+  z-index: 5;
+}

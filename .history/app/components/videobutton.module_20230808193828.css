@@ -1,0 +1,12 @@
+.video {
+  width: 100%;
+}
+
+.container {
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+  width: 200px;
+  height: 70px;
+  background-color: green;
+}
