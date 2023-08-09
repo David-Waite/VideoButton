@@ -60,6 +60,7 @@ export default function VideoButton() {
         width="320"
         height="240"
         src="/video.mp4"
+        playsinline
       ></video>
     </div>
   );
