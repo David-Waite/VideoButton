@@ -5,6 +5,7 @@
 .buttonText {
   position: absolute;
   z-index: 9;
+
   display: flex;
   align-items: center;
   justify-content: center;
@@ -13,8 +14,8 @@
   color: white;
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
-  transition: 0.3s;
+  \
+  transition: 0.5s;
 
   transition-timing-function: ease-in-out;
 }
@@ -28,7 +29,6 @@
 
   cursor: pointer;
   background-color: grey;
-
   overflow: hidden;
   transition: 0.5s;
   transition-timing-function: ease-in-out;

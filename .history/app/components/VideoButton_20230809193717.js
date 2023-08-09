@@ -32,7 +32,7 @@ export default function VideoButton() {
   };
 
   const playingStylesText = {
-    opacity: open ? "0" : "1",
+    opacity: open ? "1" : "0",
   };
 
   return (
