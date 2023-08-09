@@ -57,7 +57,6 @@ export default function VideoButton() {
         className={styles.video}
         loop
         preload="auto"
-        controls
         width="320"
         height="240"
         src="/video.mp4"
